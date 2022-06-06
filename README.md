@@ -1,521 +1,404 @@
 # html
-	<div class="section over-hide z-bigger">
-		<input class="checkbox" type="checkbox" name="general" id="general">
-		<label class="for-checkbox" for="general"></label>
-		<div class="background-color"></div>
-		<div class="section over-hide z-bigger">
-			<div class="container pb-5">
-				<div class="row justify-content-center pb-5">
-					<div class="col-12 pt-5">
-						<p class="mb-4 pb-2">Design Tools</p>
-					</div>
-					<div class="col-12 pb-5">
-						<input class="checkbox-tools" type="radio" name="tools" id="tool-1" checked>
-						<label class="for-checkbox-tools" for="tool-1">
-							<i class='uil uil-line-alt'></i>
-							line
-						</label><!--
-						--><input class="checkbox-tools" type="radio" name="tools" id="tool-2">
-						<label class="for-checkbox-tools" for="tool-2">
-							<i class='uil uil-vector-square'></i>
-							square
-						</label><!--
-						--><input class="checkbox-tools" type="radio" name="tools" id="tool-3">
-						<label class="for-checkbox-tools" for="tool-3">
-							<i class='uil uil-ruler'></i>
-							ruler
-						</label><!--
-						--><input class="checkbox-tools" type="radio" name="tools" id="tool-4">
-						<label class="for-checkbox-tools" for="tool-4">
-							<i class='uil uil-crop-alt'></i>
-							crop
-						</label><!--
-						--><input class="checkbox-tools" type="radio" name="tools" id="tool-5">
-						<label class="for-checkbox-tools" for="tool-5">
-							<i class='uil uil-brush-alt'></i>
-							brush
-						</label><!--
-						--><input class="checkbox-tools" type="radio" name="tools" id="tool-6">
-						<label class="for-checkbox-tools" for="tool-6">
-							<i class='uil uil-image-resize-landscape'></i>
-							resize
-						</label>
-					</div>
-					<div class="col-12 pt-1">
-						<p class="mb-4 pb-2">Client Budget</p>
-					</div>
-					<div class="col-xl-10 pb-5">
-						<input class="checkbox-budget" type="radio" name="budget" id="budget-1" checked>
-						<label class="for-checkbox-budget" for="budget-1">
-							<span data-hover="500$">500$</span>
-						</label><!--
-						--><input class="checkbox-budget" type="radio" name="budget" id="budget-2">
-						<label class="for-checkbox-budget" for="budget-2">							
-							<span data-hover="1000$">1000$</span>
-						</label><!--
-						--><input class="checkbox-budget" type="radio" name="budget" id="budget-3">
-						<label class="for-checkbox-budget" for="budget-3">							
-							<span data-hover="1500$">1500$</span>
-						</label><!--
-						--><input class="checkbox-budget" type="radio" name="budget" id="budget-4">
-						<label class="for-checkbox-budget" for="budget-4">							
-							<span data-hover="2000$">2000$</span>
-						</label><!--
-						--><input class="checkbox-budget" type="radio" name="budget" id="budget-5">
-						<label class="for-checkbox-budget" for="budget-5">							
-							<span data-hover="2500$">2500$</span>
-						</label><!--
-						--><input class="checkbox-budget" type="radio" name="budget" id="budget-6">
-						<label class="for-checkbox-budget" for="budget-6">							
-							<span data-hover="5000$">5000$</span>
-						</label>
-					</div>
-<!-- 					<div class="col-12 pt-1">
-						
-					</div> -->
-				</div>
-			</div>	
-		</div>
-	</div>
-		
-	<!-- Link to page
-	================================================== -->
 
-	<a href="https://front.codes" class="link-to-page" target="_blank"><img src="https://assets.codepen.io/1462889/fcy.png" alt=""></a>
+  <section class="wrapper">
+    <!-- Row title -->
+    <main class="row title">
+      <ul>
+        <li>Sport</li>
+        <li>Entry $</li>
+        <li><span class="title-hide">#</span> Entries</li>
+        <li>Max</li>
+        <li>Time</li>
+      </ul>
+    </main>
+    <!-- Row 1 - fadeIn -->
+    <section class="row-fadeIn-wrapper">
+      <article class="row fadeIn nfl">
+        <ul>
+          <li><a href="#">NFL</a><span class="small">(fadeIn)</span></li>
+          <li>$50</li>
+          <li>12</li>
+          <li>48</li>
+          <li>2:00ET</li>
+        </ul>
+        <ul class="more-content">
+          <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+        </ul>
+      </article>
+    </section>
+    <!-- Row 2 - fadeOut -->
+    <section class="row-fadeOut-wrapper">
+      <article class="row nfl">
+        <ul>
+          <li><a href="#">NFL</a><span class="small">(fadeOut)</span></li>
+          <li>$5</li>
+          <li>45</li>
+          <li>100</li>
+          <li>3:00ET</li>
+        </ul>
+        <ul class="more-content">
+          <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+        </ul>
+      </article>
+    </section>
+    <!-- Row 3 -->
+    <article class="row nfl">
+      <ul>
+        <li><a href="#">NHL</a></li>
+        <li>$50</li>
+        <li>12</li>
+        <li>48</li>
+        <li>12:00ET</li>
+      </ul>
+      <ul class="more-content">
+        <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+      </ul>
+    </article>
+    <!-- Row 4 -->
+    <article class="row mlb update-row">
+      <ul>
+        <li><a href="#">MLB</a><span class="small">(update)</span></li>
+        <li>$10</li>
+        <li><span class="update1">1</span><span class="update2">2</span></li>
+        <li>10</li>
+        <li>1:00ET</li>
+      </ul>
+      <ul class="more-content">
+        <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+      </ul>
+    </article>
+    <!-- Row 5 -->
+    <article class="row mlb">
+      <ul>
+        <li><a href="#">MLB</a></li>
+        <li>$5</li>
+        <li>48</li>
+        <li>120</li>
+        <li>12:00ET</li>
+      </ul>
+      <ul class="more-content">
+        <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+      </ul>
+    </article>
+    <!-- Row 6 -->
+    <article class="row nhl">
+      <ul>
+        <li><a href="#">NHL</a></li>
+        <li>$50</li>
+        <li>12</li>
+        <li>48</li>
+        <li>12:00ET</li>
+      </ul>
+      <ul class="more-content">
+        <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+      </ul>
+    </article>
+    <!-- Row 7 -->
+    <article class="row nhl">
+      <ul>
+        <li><a href="#">NHL</a></li>
+        <li>$50</li>
+        <li>12</li>
+        <li>48</li>
+        <li>12:00ET</li>
+      </ul>
+      <ul class="more-content">
+        <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+      </ul>
+    </article>
+    <!-- Row 8 -->
+    <article class="row pga">
+      <ul>
+        <li><a href="#">PGA</a></li>
+        <li>$50</li>
+        <li>12</li>
+        <li>48</li>
+        <li>11:00ET</li>
+      </ul>
+      <ul class="more-content">
+        <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+      </ul>
+    </article>
+    <!-- Row 9 -->
+    <article class="row pga">
+      <ul>
+        <li><a href="#">PGA</a></li>
+        <li>$50</li>
+        <li>12</li>
+        <li>48</li>
+        <li>11:00ET</li>
+      </ul>
+      <ul class="more-content">
+        <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+      </ul>
+    </article>
+    <!-- Row 10 -->
+    <article class="row pga">
+      <ul>
+        <li><a href="#">PGA</a></li>
+        <li>$50</li>
+        <li>12</li>
+        <li>48</li>
+        <li>11:00ET</li>
+      </ul>
+      <ul class="more-content">
+        <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+      </ul>
+    </article>
+    <!-- Row 11 -->
+    <article class="row mlb">
+      <ul>
+        <li><a href="#">MLB</a></li>
+        <li>$10</li>
+        <li>1</li>
+        <li>10</li>
+        <li>1:00ET</li>
+      </ul>
+      <ul class="more-content">
+        <li>This 1665-player contest boasts a $300,000.00 prize pool and pays out the top 300 finishing positions. First place wins $100,000.00. Good luck!</li>
+      </ul>
+    </article>
+  </section>
   
-  # CSS
+
+# CSS
   
   
 
-/* Please ❤ this if you like it! */
+/* Google fonts - Open Sans */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
+/* colors */
+$blue:rgba(79,192,210,1);
+$green:rgba(82,210,154,1);
+$yellow:rgba(231,196,104,0.7);
+$orange:rgba(235,118,85,1);
+$dark-bg:rgba(0,0,0,0.9);
+$light-bg:rgba(255,255,255,0.1);
+$text:rgba(255,255,255,0.9);
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
-
-
-:root {
-	--white: #ffffff;
-	--light: #f0eff3;
-	--black: #000000;
-	--dark-blue: #1f2029;
-	--dark-light: #353746;
-	--red: #da2c4d;
-	--yellow: #f8ab37;
-	--grey: #ecedf3;
-}
-
-/* #Primary
-================================================== */
-
-body{
-	width: 100%;
-	background: var(--dark-blue);
-	overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
-	font-size: 17px;
-	line-height: 30px;
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
-}
-p{
-    font-family: 'Poppins', sans-serif;
-	font-size: 17px;
-	line-height: 30px;
-	color: var(--white);
-	letter-spacing: 1px;
-	font-weight: 500;
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
-}
-::selection {
-	color: var(--white);
-	background-color: var(--black);
-}
-::-moz-selection {
-	color: var(--white);
-	background-color: var(--black);
-}
-mark{
-	color: var(--white);
-	background-color: var(--black);
-}
-.section {
-    position: relative;
-	width: 100%;
-	display: block;
-	text-align: center;
-	margin: 0 auto;
-}
-.over-hide {
-    overflow: hidden;
-}
-.z-bigger {
-    z-index: 100 !important;
+/* body */
+body {
+  background:$dark-bg;
+  font-family: 'Open Sans', sans-serif;
 }
 
+/* links */
+.nfl a, .mlb a, .nhl a, .pga a {text-decoration:none;transition: color 0.2s ease-out;}
+.nfl a {color:$blue;}
+.nfl a:hover {color:darken($blue, 20%);}
+.mlb a {color:$green;}
+.mlb a:hover {color:darken($green, 20%);}
+.nhl a {color:$yellow;}
+.nhl a:hover {color:darken($yellow, 20%);}
+.pga a {color:$orange;}
+.pga a:hover {color:darken($orange, 20%);}
 
-.background-color{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: var(--dark-blue);
-	z-index: 1;
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
-}
-.checkbox:checked ~ .background-color{
-	background-color: var(--white);
-}
-
-
-[type="checkbox"]:checked,
-[type="checkbox"]:not(:checked),
-[type="radio"]:checked,
-[type="radio"]:not(:checked){
-	position: absolute;
-	left: -9999px;
-	width: 0;
-	height: 0;
-	visibility: hidden;
-}
-.checkbox:checked + label,
-.checkbox:not(:checked) + label{
-	position: relative;
-	width: 70px;
-	display: inline-block;
-	padding: 0;
-	margin: 0 auto;
-	text-align: center;
-	margin: 17px 0;
-	margin-top: 100px;
-	height: 6px;
-	border-radius: 4px;
-	background-image: linear-gradient(298deg, var(--red), var(--yellow));
-	z-index: 100 !important;
-}
-.checkbox:checked + label:before,
-.checkbox:not(:checked) + label:before {
-	position: absolute;
-	font-family: 'unicons';
-	cursor: pointer;
-	top: -17px;
-	z-index: 2;
-	font-size: 20px;
-	line-height: 40px;
-	text-align: center;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
-}
-.checkbox:not(:checked) + label:before {
-	content: '\eac1';
-	left: 0;
-	color: var(--grey);
-	background-color: var(--dark-light);
-	box-shadow: 0 4px 4px rgba(0,0,0,0.15), 0 0 0 1px rgba(26,53,71,0.07);
-}
-.checkbox:checked + label:before {
-	content: '\eb8f';
-	left: 30px;
-	color: var(--yellow);
-	background-color: var(--dark-blue);
-	box-shadow: 0 4px 4px rgba(26,53,71,0.25), 0 0 0 1px rgba(26,53,71,0.07);
+/* wrapper */
+.wrapper {
+  width:100%;
+  max-width:1000px;
+  margin:20px auto 100px auto;
+  padding:0;
+  background:$light-bg;
+  color:$text;
+  overflow:hidden;
+  position:relative;
 }
 
-.checkbox:checked ~ .section .container .row .col-12 p{
-	color: var(--dark-blue);
+/* lists */
+.row ul {
+  margin:0;
+  padding:0;
+}
+.row ul li  {
+  margin:0;
+  font-size:16px;
+  font-weight:normal;
+  list-style:none;
+  display:inline-block;
+  width:20%;
+	box-sizing:border-box;
+  @media only screen and (max-width:767px) and (min-width:480px) {
+    font-size:13px;
+  }
+  @media only screen and (max-width:479px) {
+    font-size:13px;
+  }
 }
 
-
-.checkbox-tools:checked + label,
-.checkbox-tools:not(:checked) + label{
-	position: relative;
-	display: inline-block;
-	padding: 20px;
-	width: 110px;
-	font-size: 14px;
-	line-height: 20px;
-	letter-spacing: 1px;
-	margin: 0 auto;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 10px;
-	text-align: center;
-	border-radius: 4px;
-	overflow: hidden;
-	cursor: pointer;
-	text-transform: uppercase;
-	color: var(--white);
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
+.title ul li {
+  padding:15px 13px;
 }
-.checkbox-tools:not(:checked) + label{
-	background-color: var(--dark-light);
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.checkbox-tools:checked + label{
-	background-color: transparent;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-.checkbox-tools:not(:checked) + label:hover{
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-.checkbox-tools:checked + label::before,
-.checkbox-tools:not(:checked) + label::before{
-	position: absolute;
-	content: '';
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 4px;
-	background-image: linear-gradient(298deg, var(--red), var(--yellow));
-	z-index: -1;
-}
-.checkbox-tools:checked + label .uil,
-.checkbox-tools:not(:checked) + label .uil{
-	font-size: 24px;
-	line-height: 24px;
-	display: block;
-	padding-bottom: 10px;
+.row ul li {
+  padding:5px 10px;
 }
 
-.checkbox:checked ~ .section .container .row .col-12 .checkbox-tools:not(:checked) + label{
-	background-color: var(--light);
-	color: var(--dark-blue);
-	box-shadow: 0 1x 4px 0 rgba(0, 0, 0, 0.05);
+/* rows */
+.row {
+  padding:20px 0;
+  height:30px;
+  font-size:0;
+  position:relative;
+  overflow:hidden;
+  transition:all 0.2s ease-out;
+  border-top:1px solid darken($light-bg, 100%);
+}
+.row:hover {
+  background-color:lighten($dark-bg, 10%);
+  height:65px;
+  @media only screen and (max-width : 767px) {
+    height:85px;
+  }
+  @media only screen and (max-width : 359px) {
+    height:105px;
+  }
+}
+.title {
+  padding:25px 0 5px 0;
+  height:45px;
+  font-size:0;
+  background-color:$light-bg;
+  border-left:3px solid lighten($light-bg, 100%);
+}
+.title:hover {
+  height:45px;
+  background-color:$light-bg;
+  border-left:3px solid lighten($light-bg, 100%);
 }
 
-.checkbox-budget:checked + label,
-.checkbox-budget:not(:checked) + label{
-	position: relative;
-	display: inline-block;
-	padding: 0;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	width: 260px;
-	font-size: 52px;
-	line-height: 52px;
-	font-weight: 700;
-	letter-spacing: 1px;
-	margin: 0 auto;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 10px;
-	text-align: center;
-	border-radius: 4px;
-	overflow: hidden;
-	cursor: pointer;
-	text-transform: uppercase;
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
-	-webkit-text-stroke: 1px var(--white);
-    text-stroke: 1px var(--white);
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    color: transparent;
-}
-.checkbox-budget:not(:checked) + label{
-	background-color: var(--dark-light);
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.checkbox-budget:checked + label{
-	background-color: transparent;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-.checkbox-budget:not(:checked) + label:hover{
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-.checkbox-budget:checked + label::before,
-.checkbox-budget:not(:checked) + label::before{
-	position: absolute;
-	content: '';
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 4px;
-	background-image: linear-gradient(138deg, var(--red), var(--yellow));
-	z-index: -1;
-}
-.checkbox-budget:checked + label span,
-.checkbox-budget:not(:checked) + label span{
-	position: relative;
-	display: block;
-}
-.checkbox-budget:checked + label span::before,
-.checkbox-budget:not(:checked) + label span::before{
-	position: absolute;
-	content: attr(data-hover);
-	top: 0;
-	left: 0;
-	width: 100%;
-	overflow: hidden;
-	-webkit-text-stroke: transparent;
-    text-stroke: transparent;
-    -webkit-text-fill-color: var(--white);
-    text-fill-color: var(--white);
-    color: var(--white);
-	-webkit-transition: max-height 0.3s;
-	-moz-transition: max-height 0.3s;
-	transition: max-height 0.3s;
-}
-.checkbox-budget:not(:checked) + label span::before{
-	max-height: 0;
-}
-.checkbox-budget:checked + label span::before{
-	max-height: 100%;
+.title-hide {
+  @media only screen and (max-width:767px) {
+    display:none;
+  }
 }
 
-.checkbox:checked ~ .section .container .row .col-xl-10 .checkbox-budget:not(:checked) + label{
-	background-color: var(--light);
-	-webkit-text-stroke: 1px var(--dark-blue);
-    text-stroke: 1px var(--dark-blue);
-	box-shadow: 0 1x 4px 0 rgba(0, 0, 0, 0.05);
+.nfl {border-left:3px solid darken($blue, 30%);}
+.nfl:hover {border-left:3px solid $blue;}
+.mlb {border-left:3px solid darken($green, 30%);}
+.mlb:hover {border-left:3px solid $green;}
+.nhl {border-left:3px solid darken($yellow, 30%)}
+.nhl:hover {border-left:3px solid $yellow;}
+.pga {border-left:3px solid darken($orange, 30%);}
+.pga:hover {border-left:3px solid $orange;}
+
+/* row one - fadeIn */
+.row-fadeIn-wrapper {
+  opacity:0;
+  font-size:0;
+  height:0;
+  overflow:hidden;
+  position:relative;
+  transition:all 0.2s ease-out;
+  animation:fadeIn 0.4s ease-out 2s 1 alternate;
+  animation-fill-mode:forwards;
+}
+.row-fadeIn-wrapper:hover {
+  height:35px;
+  @media only screen and (max-width : 767px) {
+    height:55px;
+  }
+  @media only screen and (max-width : 359px) {
+    height:75px;
+  }
 }
 
-.checkbox-booking:checked + label,
-.checkbox-booking:not(:checked) + label{
-	position: relative;
-	display: -webkit-inline-flex;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	-webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-	align-items: center;
-	-webkit-justify-content: center;
-	-moz-justify-content: center;
-	-ms-justify-content: center;
-	justify-content: center;
-	-ms-flex-pack: center;
-	text-align: center;
-	padding: 0;
-	padding: 6px 25px;
-	font-size: 14px;
-	line-height: 30px;
-	letter-spacing: 1px;
-	margin: 0 auto;
-	margin-left: 6px;
-	margin-right: 6px;
-	margin-bottom: 16px;
-	text-align: center;
-	border-radius: 4px;
-	cursor: pointer;
-    color: var(--white);
-	text-transform: uppercase;
-	background-color: var(--dark-light);
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
+.fadeIn {
+  padding:20px 0;
+  font-size:0;
+  position:absolute;
+  transition:all 0.2s ease-out;
+  width:100%;
 }
-.checkbox-booking:not(:checked) + label::before{
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.checkbox-booking:checked + label::before{
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-.checkbox-booking:not(:checked) + label:hover::before{
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-.checkbox-booking:checked + label::before,
-.checkbox-booking:not(:checked) + label::before{
-	position: absolute;
-	content: '';
-	top: -2px;
-	left: -2px;
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-	border-radius: 4px;
-	z-index: -2;
-	background-image: linear-gradient(138deg, var(--red), var(--yellow));
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
-}
-.checkbox-booking:not(:checked) + label::before{
-	top: -1px;
-	left: -1px;
-	width: calc(100% + 2px);
-	height: calc(100% + 2px);
-}
-.checkbox-booking:checked + label::after,
-.checkbox-booking:not(:checked) + label::after{
-	position: absolute;
-	content: '';
-	top: -2px;
-	left: -2px;
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-	border-radius: 4px;
-	z-index: -2;
-	background-color: var(--dark-light);
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
-}
-.checkbox-booking:checked + label::after{
-	opacity: 0;
-}
-.checkbox-booking:checked + label .uil,
-.checkbox-booking:not(:checked) + label .uil{
-	font-size: 20px;
-}
-.checkbox-booking:checked + label .text,
-.checkbox-booking:not(:checked) + label .text{
-	position: relative;
-	display: inline-block;
-	-webkit-transition: opacity 300ms linear;
-	transition: opacity 300ms linear;
-}
-.checkbox-booking:checked + label .text{
-	opacity: 0.6;
-}
-.checkbox-booking:checked + label .text::after,
-.checkbox-booking:not(:checked) + label .text::after{
-	position: absolute;
-	content: '';
-	width: 0;
-	left: 0;
-	top: 50%;
-	margin-top: -1px;
-	height: 2px;
-	background-image: linear-gradient(138deg, var(--red), var(--yellow));
-	z-index: 1;
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear; 
-}
-.checkbox-booking:not(:checked) + label .text::after{
-	width: 0;
-}
-.checkbox-booking:checked + label .text::after{
-	width: 100%;
+.fadeIn:hover {
+  background-color:lighten($dark-bg, 10%);
 }
 
-.checkbox:checked ~ .section .container .row .col-12 .checkbox-booking:not(:checked) + label,
-.checkbox:checked ~ .section .container .row .col-12 .checkbox-booking:checked + label{
-	background-color: var(--light);
-    color: var(--dark-blue);
+/* row two - fadeOut */
+.row-fadeOut-wrapper {
+  font-size:0;
+  overflow:hidden;
+  position:relative;
+  transition:all 0.2s ease-out;
+  animation:fadeOut 0.4s ease-out 8s 1 alternate;
+  animation-fill-mode:forwards;
+  opacity:1;
+  height:65px;
 }
-.checkbox:checked ~ .section .container .row .col-12 .checkbox-booking:checked + label::after,
-.checkbox:checked ~ .section .container .row .col-12 .checkbox-booking:not(:checked) + label::after{
-	background-color: var(--light);
+.row-fadeOut-wrapper:hover {
+  height:100px;
 }
 
-
-
-
-.link-to-page {
-	position: fixed;
-    top: 30px;
-    right: 30px;
-    z-index: 20000;
-    cursor: pointer;
-    width: 50px;
+/* update content */
+.update-row {
+  animation:update 0.5s ease-out 12s 1 alternate;
 }
-.link-to-page img{
-	width: 100%;
-	height: auto;
-	display: block;
+.update1 {
+  position:absolute;
+  top:25px;
+  display:inline-block;
+  opacity:1;
+  animation:update1 1s ease-out 12s 1 alternate;
+  animation-fill-mode:forwards;
 }
+.update2 {
+  position:absolute;
+  top:25px;
+  display:inline-block;
+  opacity:0;
+  animation:update2 4s ease-out 13s 1 alternate;
+  animation-fill-mode:forwards;
+}
+
+/* more content */
+ul.more-content li {
+  position:relative;
+  top:22px;
+  font-size:13px;
+  margin:0;
+  padding:10px 13px;
+  display:block;
+  height:50px;
+  width:100%;
+  color:darken($text,50%);
+  @media only screen and (max-width:767px) {
+    font-size:11px;
+  }
+}
+
+/* small content */
+.small {
+  color:darken($text,60%);
+  font-size:10px;
+  padding:0 10px;
+  margin:0;
+  @media only screen and (max-width:767px) {
+    display:none;
+  }
+}
+
+/* keyframe animations */
+@keyframes fadeIn {
+  from {background:$light-bg;opacity:0;padding:0;}
+  to {background:darken($light-bg,80%);opacity:1;padding:0 0 65px 0;}
+}
+@keyframes fadeOut {
+  from {background:darken($light-bg,80%);opacity:1;height:65px;}
+  to {background:$light-bg;opacity:0;height:0;}
+}
+@keyframes update {
+  0% {background:darken($light-bg,80%);}
+  50% {background:$light-bg;}
+  100% {background:darken($light-bg,80%);}
+}
+@keyframes update1 {
+  0% {opacity:0;}
+  0% {opacity:1;}
+  100% {opacity:0;}
+}
+@keyframes update2 {
+  0% {opacity:0;color:$text;}
+  20% {opacity:1;color:$green;}
+  100% {opacity:1;color:$text;}
+}
+
